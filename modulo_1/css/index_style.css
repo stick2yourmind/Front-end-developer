@@ -21,6 +21,7 @@ header h1,h2{
 .category{
     float: left;
     height: 568px;
+    width: 160px;
     background: #3A9ABD;
 }
 ul{
@@ -34,6 +35,10 @@ a{
     color: ghostwhite;
     text-align: center;
     padding: 4px;
+}
+a:hover{
+    font-weight: bold;
+    background: #235C70;
 }
 .main_container{
     height: 568px;
