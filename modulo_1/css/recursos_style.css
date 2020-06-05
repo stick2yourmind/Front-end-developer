@@ -38,6 +38,7 @@ a{
 .main_container{
     height: 568px;
     background: #3B4650;
+    color: white;
 }
 .footer_dark{
     background: black;

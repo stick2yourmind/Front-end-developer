@@ -39,6 +39,21 @@ a{
     height: 568px;
     background: #3B4650;
 }
+.main_container_1{
+    height: 50%;
+    text-align: center;
+}
+.main_container_2{
+    height: 50%;
+    text-align: center;
+}
+.main_container_1 img{
+    height: 100%;
+}
+.main_container_2 img{
+    height: 100%;
+    text-align: center;
+}
 .footer_dark{
     background: black;
     color: white;
