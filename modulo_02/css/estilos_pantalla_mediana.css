@@ -1,0 +1,88 @@
+@media all and (min-width: 600px) and (max-width: 1023px) {
+  * {
+    box-sizing: border-box;
+  }
+  header {
+    width: 540px; /* 540/960 = 9/16 */
+    height: 60px;
+    background-color: #298ad9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  #cont {
+    width: 540px;
+    height: 2390px;
+    background-color: #2bc1e3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  footer {
+    width: 540px;
+    height: 175px;
+    background-color: #30ccbe;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  #headerMarca {
+    width: 100px;
+    height: 60px;
+    background-color: #30a0fc;
+    float: left;
+  }
+  #headerBotoPrinc {
+    width: 300px;
+    height: 60px;
+    background-color: #4aaeff;
+    float: right;
+  }
+  #aplicacionesDeUso {
+    width: 540px;
+    height: 410px;
+    background-color: #186a7d;
+  }
+  #demoIzq {
+    width: 540px;
+    height: 410px;
+    background-color: #2bc1e3;
+    float: left;
+  }
+  #demoDer {
+    width: 540px;
+    height: 410px;
+    background-color: #30d7fc;
+    float: left;
+  }
+  .caracteristicasConfigurables {
+    width: 270px;
+    height: 250px;
+    background-color: #0c343d;
+    border: 1px blueviolet dashed;
+    float: left;
+  }
+  #caracteristicasUltimaVersion {
+    width: 540px;
+    height: 410px;
+    background-color: #72ebff;
+    clear: left;
+  }
+  #footerNavInterno {
+    width: 540px;
+    height: 150px;
+    background-color: #37e6d7;
+  }
+  #footerRevision {
+    width: 100px;
+    height: 25px;
+    background-color: #169e8c;
+    float: left;
+  }
+  #footerNavExterno {
+    width: 300px;
+    height: 25px;
+    background-color: #2bb3a7;
+    float: right;
+  }
+}
