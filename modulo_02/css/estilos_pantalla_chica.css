@@ -34,7 +34,7 @@ header {
 /* Cont */
 #cont {
   width: 350px;
-  height: 2610px;
+  height: 2670px;
 }
 #tiendaExterior {
   width: 350px;
@@ -48,6 +48,7 @@ header {
 }
 .caracteristicasDestacables {
   width: 350px;
+  margin-top: 10px;
 }
 .caracteristicasDestacables h3 {
   text-align: center;

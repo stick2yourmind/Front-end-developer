@@ -68,7 +68,7 @@ header {
 #tiendaExterior {
   width: 960px;
   height: 410px;
-  background-image: url("https://html5-css3-js-2020.000webhostapp.com/html/modulo_02_evaluacion/img/tienda-exterior.png");
+  background-image: url("../img/tienda-exterior.png");
   background-size: auto 410px;
   background-repeat: no-repeat;
   background-position: center;
@@ -76,7 +76,7 @@ header {
 #tiendaInteriorIzq {
   width: 480px;
   height: 350px;
-  background-image: url("https://html5-css3-js-2020.000webhostapp.com/html/modulo_02_evaluacion/img/tienda-interior-barra.png");
+  background-image: url("../img/tienda-interior-barra.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -85,7 +85,7 @@ header {
 #tiendaInteriorDer {
   width: 480px;
   height: 350px;
-  background-image: url("https://html5-css3-js-2020.000webhostapp.com/html/modulo_02_evaluacion/img/tienda-interior-mesa.png");
+  background-image: url("../img/tienda-interior-mesa.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
