@@ -24,6 +24,9 @@ header {
   height: 70px;
   float: left;
 }
+#headerMarca a {
+  text-decoration: none;
+}
 #headerMarca h1 {
   font-family: "letraCursiva";
   margin: 0;
@@ -217,4 +220,23 @@ footer {
   height: 30px;
   width: auto;
   float: right;
+}
+
+/* contacto.html*/
+#cont h2 {
+  font-family: "letraCursiva";
+  text-align: center;
+  font-size: 40px;
+}
+.entradaFormulario {
+  display: block;
+  width: 500px;
+  height: 70px;
+  font-size: 25px;
+  margin: 5px auto 0 auto;
+  border: 1px solid hsl(346, 68%, 22%);
+}
+.entradaFormulario[rows] {
+  /* Selecciona un elemento de clase entradaFormulario con atributo rows */
+  height: 500px;
 }
