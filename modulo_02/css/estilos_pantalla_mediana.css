@@ -34,14 +34,12 @@ header {
   float: none;
 }
 .caracteristicasDestacables {
-  width: 220px;
+  width: 50%;
   height: 240px;
   position: relative;
   /* position: relative;Lo utilizo para "anclar" el 
   position: relative; usado en .caracteristicasDestacables p 
   ya que es el hijo*/
-  margin-left: 5px;
-  margin-right: 5px;
 }
 .caracteristicasDestacables h3 {
   text-align: center;
@@ -57,7 +55,7 @@ header {
 }
 #informacionExtra {
   width: 480px;
-  height: 360px;
+  height: auto;
 }
 /* ---------- */
 /* footer */
