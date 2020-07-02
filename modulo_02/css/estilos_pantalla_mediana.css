@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box;
-}
 /* link de la fuente: https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap */
 @font-face {
   font-family: "letraCursiva";
@@ -14,24 +11,9 @@
 /* Header */
 header {
   width: 480px;
-  height: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
 }
 #headerMarca {
   width: 480px;
-  height: 70px;
-  float: left;
-}
-#headerMarca h1 {
-  font-family: "letraCursiva";
-  margin: 0;
-  text-align: center;
-  padding: 10px;
-  font-size: 40px;
-  color: hsl(346, 68%, 22%);
-  font-weight: bold;
 }
 #headerBotoPrinc {
   display: none;
@@ -40,57 +22,26 @@ header {
 /* Cont */
 #cont {
   width: 480px;
-  height: 2220px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
+  height: 2220px; /* 2220 px = alto(#informacionExtra+3 x .caracteristicasDestacables + 3 x .caracteristicasDestacables top-margin + tiendaInteriorDer + tiendaInteriorIzq + tiendaExterior) */
 }
 #tiendaExterior {
   width: 480px;
-  height: 410px;
-  background-image: url("https://html5-css3-js-2020.000webhostapp.com/html/modulo_02_evaluacion/img/tienda-exterior.png");
-  background-size: auto 410px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 #tiendaInteriorIzq {
-  width: 480px;
-  height: 350px;
-  background-image: url("https://html5-css3-js-2020.000webhostapp.com/html/modulo_02_evaluacion/img/tienda-interior-barra.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  float: left;
+  float: none;
 }
 #tiendaInteriorDer {
-  width: 480px;
-  height: 350px;
-  background-image: url("https://html5-css3-js-2020.000webhostapp.com/html/modulo_02_evaluacion/img/tienda-interior-mesa.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  float: left;
+  float: none;
 }
 .caracteristicasDestacables {
   width: 220px;
   height: 240px;
-  background-color: hsla(32, 84%, 54%, 0.233);
-  shape-outside: circle();
-  clip-path: circle();
-  float: left;
   position: relative;
   /* position: relative;Lo utilizo para "anclar" el 
   position: relative; usado en .caracteristicasDestacables p 
   ya que es el hijo*/
   margin-left: 5px;
   margin-right: 5px;
-}
-.caracteristicasDestacables h2 {
-  text-align: center;
-  font-family: "letraCursiva";
-  font-size: 35px;
-  margin: 0;
-  padding: 0;
 }
 .caracteristicasDestacables h3 {
   text-align: center;
@@ -99,97 +50,26 @@ header {
   padding: 0;
 }
 .caracteristicasDestacables a {
-  display: inline-block;
-  font-size: 35px;
+  /* 240px de height y line-height para que que el a sea del mismo alto que:
+  la clase caracteristicasDestacables */
   height: 240px;
-  width: 100%;
   line-height: 240px;
-  text-decoration: none;
-  color: hsl(346, 68%, 22%);
-}
-.caracteristicasDestacables p {
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  padding: 0 35px;
-  /* Con 
-  position: relative;
-  top: -110px;
-  logro posicionar el texto dentro los círculos */
-  position: relative;
-  top: -110px;
 }
 #informacionExtra {
   width: 480px;
   height: 360px;
-  padding: 15px 15px 0 15px;
-  /* Limpio los float, en este caso todos fueron a la izquierda */
-  clear: left;
-}
-#informacionExtra h4 {
-  font-family: "letraCursiva";
-  font-size: 30px;
-  margin: 0;
-  padding: 0 0 0 5px;
-}
-#informacionExtra p {
-  font-family: "Raleway", sans-serif;
-  font-size: 30px;
-  padding: 0 75px;
 }
 /* ---------- */
 /* footer */
 footer {
   width: 480px;
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
 }
 #footerNavInterno {
   width: 480px;
-  height: 70px;
-}
-#footerNavInterno ul {
-  /* No se puede centrar horizontalmente la lista con display 
-  inline-block + margin 0 auto, text-align center si lo logró */
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-}
-#footerNavInterno ul li {
-  display: inline;
-}
-#footerNavInterno ul li a {
-  font-family: "Raleway", sans-serif;
-  font-size: 30px;
-  display: inline-block;
-  padding: 0px 10px;
-  text-decoration: none;
-  color: black;
-  height: 70px;
-  line-height: 70px;
-  border: 1px solid black;
 }
 #footerNota {
   width: 180px;
-  height: 30px;
-  float: left;
-}
-#footerNota p {
-  margin: 0;
-  padding: 0 15px;
-  font-family: "letraCursiva";
-  height: 30px;
-  line-height: 30px;
 }
 #footerNavExterno {
   width: 300px;
-  height: 30px;
-  float: right;
-}
-#footerNavExterno img {
-  height: 30px;
-  width: auto;
-  float: right;
 }
