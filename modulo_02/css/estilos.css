@@ -59,6 +59,14 @@ header {
   height: 70px;
   line-height: 70px;
 }
+
+#headerBotoPrinc ul li a:hover {
+  border: 1px solid black;
+  /* Le reduzco 1px de cada lado para sacar el efecto de dezplazamiento
+  que produce hover */
+  height: 68px;
+  line-height: 68px;
+}
 /* ---------- */
 /* Cont */
 #cont {
@@ -247,4 +255,63 @@ footer {
 /* nosotros.html*/
 #nosotrosP {
   font-size: 25px;
+}
+/* pasta.html */
+#divIzq1 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/gnocchi.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divDer1 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/penne.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divIzq2 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/spaghetti.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divDer2 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/lasagna.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divIzq3 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/gnocchi-sc.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divDer3 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/tortellini-sc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+/* dia.html y aleaotorio.html */
+#informacionExtraP {
+  text-align: center;
 }

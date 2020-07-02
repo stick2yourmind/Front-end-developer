@@ -139,3 +139,46 @@ footer {
   width: auto;
   float: none;
 }
+/* pasta.html */
+#divIzq1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDer1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzq2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDer2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzq3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDer3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
