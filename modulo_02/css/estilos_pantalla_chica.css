@@ -10,13 +10,13 @@
 }
 /* Header */
 header {
-  width: 350px;
-  height: 70px;
+  width: 90%;
+  height: auto;
 }
 #headerMarca {
-  width: 350px;
-  height: 70px;
-  float: left;
+  width: 100%;
+  height: auto;
+  float: none;
 }
 #headerMarca h1 {
   font-family: "letraCursiva";
@@ -33,30 +33,68 @@ header {
 /* ---------- */
 /* Cont */
 #cont {
-  width: 350px;
-  height: 2670px;
+  width: 90%;
+  height: auto;
 }
 #tiendaExterior {
-  width: 350px;
-  height: 410px;
+  /* El efecto "zoom" que ocurre en #tiendaExterior al pasar a la @media de 600px y no en #tiendaInteriorIzq  #tiendaInteriorDer es debido a que #tiendaExterior posee diferente altura */
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
 }
 #tiendaInteriorIzq {
-  width: 350px;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+  float: none; /* Para que el #cont me tome las dimensiones height: auto; */
 }
 #tiendaInteriorDer {
-  width: 350px;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+  float: none; /* Para que el #cont me tome las dimensiones height: auto; */
 }
 .caracteristicasDestacables {
-  width: 350px;
+  width: 100%;
+  min-height: 250px;
+  min-width: 255px; /* Para evitar que el circulo se achique tanto que se vayan las letras */
+  position: relative;
+  float: none; /* Para que el #cont me tome las dimensiones height: auto; */
+}
+.caracteristicasDestacables h2 {
+  text-align: center;
+  font-family: "letraCursiva";
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Para que el link luego pueda ocupar todo el circulo */
 }
 .caracteristicasDestacables h3 {
   text-align: center;
   font-family: "letraCursiva";
   margin: 0;
   padding: 0;
+  height: 100%; /* Para que el link luego pueda ocupar todo el circulo */
+}
+.caracteristicasDestacables a {
+  /* width: 100%; En reemplazo de padding: 0 auto;*/
+  /* ya que toma como inválido padding: 0 auto; */
+  display: inline-block;
+  font-size: 35px;
+  width: 100%;
+  height: auto;
+  line-height: 240px;
+  text-decoration: none;
+  color: hsl(346, 68%, 22%);
+  height: 100%; /* Para que el link pueda ocupar todo el circulo */
 }
 .caracteristicasDestacables p {
-  padding: 0 60px;
+  padding: 0 30%;
+  position: absolute;
+  top: 55%;
 }
 #informacionExtra {
   display: none;
@@ -64,22 +102,23 @@ header {
 /* ---------- */
 /* footer */
 footer {
-  width: 350px;
-  height: 350px;
+  width: 90%;
+  height: auto;
 }
 #footerNavInterno {
-  width: 350px;
-  height: 210px;
+  width: 100%;
+  height: auto;
 }
 #footerNavInterno ul li {
   display: block;
 }
 #footerNavInterno ul li a {
-  width: 350px;
+  width: 100%;
+  height: auto;
 }
 #footerNota {
-  width: 350px;
-  height: 70px;
+  width: 100%;
+  height: auto;
   float: none;
 }
 #footerNota p {
@@ -88,8 +127,8 @@ footer {
   text-align: center;
 }
 #footerNavExterno {
-  width: 350px;
-  height: 70px;
+  width: 100%;
+  height: auto;
   float: none;
   text-align: center;
 }

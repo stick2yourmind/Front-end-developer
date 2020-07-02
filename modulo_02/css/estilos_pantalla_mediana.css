@@ -99,8 +99,6 @@ header {
   padding: 0;
 }
 .caracteristicasDestacables a {
-  /* width: 100%; En reemplazo de padding: 0 auto;*/
-  /* ya que toma como inválido padding: 0 auto; */
   display: inline-block;
   font-size: 35px;
   height: 240px;
@@ -128,9 +126,6 @@ header {
   clear: left;
 }
 #informacionExtra h4 {
-  /* margin-top: 10px; y margin-right: 0; no funcionan acá,
-  para solucionarlo puse padding: 15px 15px 0 15px; en 
-  #informacionExtra */
   font-family: "letraCursiva";
   font-size: 30px;
   margin: 0;
