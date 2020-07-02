@@ -22,7 +22,7 @@ header {
 /* Cont */
 #cont {
   width: 480px;
-  height: 2220px; /* 2220 px = alto(#informacionExtra+3 x .caracteristicasDestacables + 3 x .caracteristicasDestacables top-margin + tiendaInteriorDer + tiendaInteriorIzq + tiendaExterior) */
+  height: auto; /* 2220 px = alto(#informacionExtra+3 x .caracteristicasDestacables + 3 x .caracteristicasDestacables top-margin + tiendaInteriorDer + tiendaInteriorIzq + tiendaExterior) */
 }
 #tiendaExterior {
   width: 480px;
@@ -66,6 +66,10 @@ footer {
 }
 #footerNavInterno {
   width: 480px;
+}
+#footerNavInterno ul li:nth-of-type(2) {
+  /* Agrego padding al segundo hijo para los tres hijos li ocupen el 100% del ancho y quede alineado con el formulario */
+  margin: 0 19px;
 }
 #footerNota {
   width: 180px;
