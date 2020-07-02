@@ -3,8 +3,8 @@ Módulo 01B:
 	Corrección del módulo 01, solo modelo de cajas según consigna.
 
 Módulo 02:
-	Rev:1.0
-	Pendiente responsive design para pantallas medianas.
+	Rev:3.0
+	+ Responsive design
 
 
 
