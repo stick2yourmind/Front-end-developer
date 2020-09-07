@@ -140,45 +140,188 @@ footer {
   float: none;
 }
 /* pasta.html */
-#divIzq1 {
+#divIzqPasta1 {
   float: none;
   width: 100%;
   height: auto;
   min-height: 350px;
   background-size: cover;
 }
-#divDer1 {
+#divDerPasta1 {
   float: none;
   width: 100%;
   height: auto;
   min-height: 350px;
   background-size: cover;
 }
-#divIzq2 {
+#divIzqPasta2 {
   float: none;
   width: 100%;
   height: auto;
   min-height: 350px;
   background-size: cover;
 }
-#divDer2 {
+#divDerPasta2 {
   float: none;
   width: 100%;
   height: auto;
   min-height: 350px;
   background-size: cover;
 }
-#divIzq3 {
+#divIzqPasta3 {
   float: none;
   width: 100%;
   height: auto;
   min-height: 350px;
   background-size: cover;
 }
-#divDer3 {
+#divDerPasta3 {
   float: none;
   width: 100%;
   height: auto;
   min-height: 350px;
   background-size: cover;
+}
+
+/* pan.html */
+#divIzqPan1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerPan1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqPan2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerPan2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqPan3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerPan3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+
+/* vegano.html */
+#divIzqVegano1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerVegano1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqVegano2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerVegano2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqVegano3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerVegano3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+
+/* organico.html */
+#divIzqOrganico1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerOrganico1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqOrganico2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerOrganico2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqOrganico3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerOrganico3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+
+
+
+/* aleaotorio.html y dia.html*/
+#fotoAleatorio, #fotoDia {  
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  max-width: 350px;
+  background-size: contain;
 }

@@ -261,67 +261,271 @@ footer {
   /* Selecciona un elemento de clase entradaFormulario con atributo rows */
   height: 500px;
 }
+.error {
+    font-family: "letraCursiva";
+    text-align: center;
+    font-size: 30px;
+    color: tomato;
+}
 
 /* nosotros.html*/
 #nosotrosP {
   font-size: 25px;
 }
 /* pasta.html */
-#divIzq1 {
+#divIzqPasta1 {
   width: 480px;
   height: 350px;
-  background-image: url("../img/gnocchi.jpeg");
+  background-image: url("../img/categoria/pasta/gnocchi.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   float: left;
 }
-#divDer1 {
+#divDerPasta1 {
   width: 480px;
   height: 350px;
-  background-image: url("../img/penne.jpeg");
+  background-image: url("../img/categoria/pasta/penne.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   float: left;
 }
-#divIzq2 {
+#divIzqPasta2 {
   width: 480px;
   height: 350px;
-  background-image: url("../img/spaghetti.jpg");
+  background-image: url("../img/categoria/pasta/spaghetti.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   float: left;
 }
-#divDer2 {
+#divDerPasta2 {
   width: 480px;
   height: 350px;
-  background-image: url("../img/lasagna.jpg");
+  background-image: url("../img/categoria/pasta/lasagna.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   float: left;
 }
-#divIzq3 {
+#divIzqPasta3 {
   width: 480px;
   height: 350px;
-  background-image: url("../img/gnocchi-sc.jpeg");
+  background-image: url("../img/categoria/pasta/gnocchi-sc.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   float: left;
 }
-#divDer3 {
+#divDerPasta3 {
   width: 480px;
   height: 350px;
-  background-image: url("../img/tortellini-sc.jpg");
+  background-image: url("../img/categoria/pasta/tortellini-sc.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   float: left;
 }
-/* dia.html y aleaotorio.html */
-#informacionExtraP {
+
+
+/* pan.html */
+#divIzqPan1 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/pan/Chapatta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divDerPan1 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/pan/Ciabatta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divIzqPan2 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/pan/FocacciaTomateAlbahaca.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divDerPan2 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/pan/FocacciaTomateCebolla.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divIzqPan3 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/pan/Grissini.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divDerPan3 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/pan/PanettoneChocolate.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+
+
+/* vegano.html */
+#divIzqVegano1 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/vegano/CheesecakeVegano.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divDerVegano1 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/vegano/Frappes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divIzqVegano2 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/vegano/GalletitasDeAlmendraAvenaPistachoVegan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divDerVegano2 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/vegano/HamburguesaVegan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divIzqVegano3 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/vegano/TabuleQuinoaVegan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divDerVegano3 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/vegano/TortaDeHigosVegan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+
+
+/* organico.html */
+#divIzqOrganico1 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/organico/BrochetaDePolloConFritas.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divDerOrganico1 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/organico/CrocantesOrganico.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divIzqOrganico2 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/organico/EmpanaDePolloOrganica.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divDerOrganico2 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/organico/EnsaladaOrganicaDePalta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divIzqOrganico3 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/organico/OmeletteOrganico.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+#divDerOrganico3 {
+  width: 480px;
+  height: 350px;
+  background-image: url("../img/categoria/organico/PizzaPrimaveraOrganica.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+/* aleaotorio.html y dia.html*/
+#fotoAleatorio, #fotoDia {
+  width: 960px;
+  height: 410px;
+  background-image: url("../img/tienda-exterior.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto auto; 
+}
+#tituloAleatorio, #tituloDia {
+  font-family: "letraCursiva";
   text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#listaIngredientesAleatorio, #listaIngredientesDia{
+  font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin-top: 0;
+}
+h5{
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+#listaIngredientesAleatorio li, #listaIngredientesDia li{
+  text-align: center;
+  list-style: none;
 }

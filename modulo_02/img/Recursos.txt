@@ -4,8 +4,6 @@ https://www.pexels.com/photo/photo-of-black-store-facade-747510/
 https://www.pexels.com/photo/top-view-photo-of-restaurant-2253643/
 https://unsplash.com/s/photos/restaurant
 https://www.iconfinder.com/iconsets/social-58
-https://pixabay.com/es/photos/espaguetis-fideos-los-tomates-pasta-3547078/
-https://www.flickr.com/photos/158197311@N04/42542705864/in/photolist-27PmuhG-Rcjfzx-UvFuUF-gU6aUR-2ir6SUX-ff1q2U-H27brY-ak3FFR-5CX7rm-5CX7sw-gomB4D-5w3AoD-4DfYNE-aCLmZW-8dohdf-4DbFXD-2YnCvg-4ohzbR-2de3XoN-mVXzHP-d3o1gQ-7sstE6-bmXrJY-mVZrpj-mVX82T-mVX35D-mVXeda-mVZvZG-2giEAhs-5uGhJu-2V4yPg-kU4m2N-Jkv3DV-oB9Pvy-TrqthS-xtbrdo-ojRWQE-iGgGiU-T5K62A-NmVKvm-nhrg8D-zpu3vy-2hHwLum-hgtGxW-fm3ocr-bzSgtg-7swuAN-scNmrF-5ZHdQk-nhrpAo
 
 CSS:
 Circulos:

@@ -77,21 +77,89 @@ footer {
 }
 
 /* pasta.html */
-#divIzq1 {
+#divIzqPasta1 {
   float: none;
 }
-#divDer1 {
+#divDerPasta1 {
   float: none;
 }
-#divIzq2 {
+#divIzqPasta2 {
   float: none;
 }
-#divDer2 {
+#divDerPasta2 {
   float: none;
 }
-#divIzq3 {
+#divIzqPasta3 {
   float: none;
 }
-#divDer3 {
+#divDerPasta3 {
   float: none;
+}
+
+/* pan.html */
+#divIzqPan1 {
+  float: none;
+}
+#divDerPan1 {
+  float: none;
+}
+#divIzqPan2 {
+  float: none;
+}
+#divDerPan2 {
+  float: none;
+}
+#divIzqPan3 {
+  float: none;
+}
+#divDerPan3 {
+  float: none;
+}
+
+/* vegano.html */
+#divIzqVegano1 {
+  float: none;
+}
+#divDerVegano1 {
+  float: none;
+}
+#divIzqVegano2 {
+  float: none;
+}
+#divDerVegano2 {
+  float: none;
+}
+#divIzqVegano3 {
+  float: none;
+}
+#divDerVegano3 {
+  float: none;
+}
+
+/* organico.html */
+#divIzqOrganico1 {
+  float: none;
+}
+#divDerOrganico1 {
+  float: none;
+}
+#divIzqOrganico2 {
+  float: none;
+}
+#divDerOrganico2 {
+  float: none;
+}
+#divIzqOrganico3 {
+  float: none;
+}
+#divDerOrganico3 {
+  float: none;
+}
+
+/* aleaotorio.html y dia.html*/
+#fotoAleatorio, #fotoDia {
+  width: 100%;
+  height: auto;
+  min-height: 480px;
+  background-size: contain;
 }

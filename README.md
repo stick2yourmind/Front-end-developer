@@ -5,6 +5,9 @@ Módulo 01B:
 Módulo 02:
 	Rev:3.0
 	+ Responsive design
+	Rev: 3.1
+	+ Validación formulario vainilla JS
+	- Jquery aleatorio boton en dia.html
 
 
 
