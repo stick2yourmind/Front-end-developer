@@ -104,6 +104,9 @@ function imprimirIngredientes(idLista, indiceMenuSeleccionado){
     var ingredientesAImprimir = ingredientesMenuSeleccionado(indiceMenuSeleccionado);
     var lista = document.getElementById(idLista);
     var i = 0;
+    if(lista.children){
+        lista.innerHTML = '';
+    }
     do{
         var listaItem = document.createElement('li');
         listaItem.innerHTML = ingredientesAImprimir[i];
@@ -113,7 +116,27 @@ function imprimirIngredientes(idLista, indiceMenuSeleccionado){
 
 }
 
-indiceMenuSeleccionado = seleccionMenuAleatorio();
-imprimirFoto('fotoAleatorio', indiceMenuSeleccionado);
-imprimirTitulo('tituloAleatorio', indiceMenuSeleccionado);
-imprimirIngredientes('listaIngredientesAleatorio', indiceMenuSeleccionado);
+
+function jQueryFuncion(){
+    $("#botonAleatorio").click(jQueryAleatorio);
+    console.log("jQueryFuncion");
+}
+
+function jQueryAleatorio(){
+    indiceMenuSeleccionado = seleccionMenuAleatorio();
+    if(tituloMenu[menu[indiceMenuSeleccionado]]==document.getElementById("tituloAleatorio").innerText){
+        console.log("Repetido");
+        jQueryAleatorio();
+        return;
+        }
+    imprimirFoto('fotoAleatorio', indiceMenuSeleccionado);
+    $('#fotoAleatorio').hide();
+    $('#fotoAleatorio').fadeIn(1000);
+    imprimirTitulo('tituloAleatorio', indiceMenuSeleccionado);
+    imprimirIngredientes('listaIngredientesAleatorio', indiceMenuSeleccionado);
+
+    console.log("jQueryAleatorio");
+}
+
+$(document).ready(jQueryFuncion);
+$(document).ready(jQueryAleatorio);

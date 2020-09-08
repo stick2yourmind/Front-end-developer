@@ -529,3 +529,8 @@ h5{
   text-align: center;
   list-style: none;
 }
+
+#botonAleatorio{
+  display: block;
+  margin: auto auto;
+}
