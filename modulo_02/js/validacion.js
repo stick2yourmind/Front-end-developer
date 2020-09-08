@@ -87,7 +87,7 @@ function validarTelefono (){
         }
     else if(document.getElementById("telefono").validity.patternMismatch){
         mensajeErrorInnerHTML = "Debe indicar un teléfono de mínimo 8 números" + 
-         " y 14 números como máximo";
+         " y 16 números como máximo";
         console.log("Campo teléfono no concuerda con el patron");
         }
     else{

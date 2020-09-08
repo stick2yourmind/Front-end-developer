@@ -14,6 +14,9 @@ Módulo 02:
 	Rev: 3.2
 	+ Validación formulario vainilla JS
 	+ Jquery aleatorio boton en aleatorio.html
+	
+	Rev: 3.3
+	+ Deploy at firebase
 
 
 

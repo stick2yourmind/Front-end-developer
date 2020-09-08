@@ -1,0 +1,327 @@
+/* link de la fuente: https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap */
+@font-face {
+  font-family: "letraCursiva";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/dancingscript/v15/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* Header */
+header {
+  width: 90%;
+  height: auto;
+}
+#headerMarca {
+  width: 100%;
+  height: auto;
+  float: none;
+}
+#headerMarca h1 {
+  font-family: "letraCursiva";
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  color: hsl(346, 68%, 22%);
+  font-weight: bold;
+}
+#headerBotoPrinc {
+  display: none;
+}
+/* ---------- */
+/* Cont */
+#cont {
+  width: 90%;
+  height: auto;
+}
+#tiendaExterior {
+  /* El efecto "zoom" que ocurre en #tiendaExterior al pasar a la @media de 600px y no en #tiendaInteriorIzq  #tiendaInteriorDer es debido a que #tiendaExterior posee diferente altura */
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#tiendaInteriorIzq {
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+  float: none; /* Para que el #cont me tome las dimensiones height: auto; */
+}
+#tiendaInteriorDer {
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+  float: none; /* Para que el #cont me tome las dimensiones height: auto; */
+}
+.caracteristicasDestacables {
+  width: 100%;
+  min-height: 250px;
+  min-width: 255px; /* Para evitar que el circulo se achique tanto que se vayan las letras */
+  position: relative;
+  float: none; /* Para que el #cont me tome las dimensiones height: auto; */
+}
+.caracteristicasDestacables h2 {
+  text-align: center;
+  font-family: "letraCursiva";
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Para que el link luego pueda ocupar todo el circulo */
+}
+.caracteristicasDestacables h3 {
+  text-align: center;
+  font-family: "letraCursiva";
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Para que el link luego pueda ocupar todo el circulo */
+}
+.caracteristicasDestacables a {
+  /* width: 100%; En reemplazo de padding: 0 auto;*/
+  /* ya que toma como inválido padding: 0 auto; */
+  display: inline-block;
+  font-size: 35px;
+  width: 100%;
+  height: auto;
+  line-height: 240px;
+  text-decoration: none;
+  color: hsl(346, 68%, 22%);
+  height: 100%; /* Para que el link pueda ocupar todo el circulo */
+}
+.caracteristicasDestacables p {
+  padding: 0 30%;
+  position: absolute;
+  top: 55%;
+}
+#informacionExtra {
+  display: none;
+}
+/* ---------- */
+/* footer */
+footer {
+  width: 90%;
+  height: auto;
+}
+#footerNavInterno {
+  width: 100%;
+  height: auto;
+}
+#footerNavInterno ul li {
+  display: block;
+}
+#footerNavInterno ul li a {
+  width: 100%;
+  height: auto;
+}
+#footerNota {
+  width: 100%;
+  height: auto;
+  float: none;
+}
+#footerNota p {
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+#footerNavExterno {
+  width: 100%;
+  height: auto;
+  float: none;
+  text-align: center;
+}
+#footerNavExterno img {
+  height: 70px;
+  line-height: 70px;
+  width: auto;
+  width: auto;
+  float: none;
+}
+/* pasta.html */
+#divIzqPasta1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerPasta1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqPasta2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerPasta2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqPasta3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerPasta3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+
+/* pan.html */
+#divIzqPan1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerPan1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqPan2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerPan2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqPan3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerPan3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+
+/* vegano.html */
+#divIzqVegano1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerVegano1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqVegano2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerVegano2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqVegano3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerVegano3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+
+/* organico.html */
+#divIzqOrganico1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerOrganico1 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqOrganico2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerOrganico2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divIzqOrganico3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+#divDerOrganico3 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  background-size: cover;
+}
+
+
+
+/* aleaotorio.html y dia.html*/
+#fotoAleatorio, #fotoDia {  
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  max-width: 350px;
+  background-size: contain;
+}

@@ -1,0 +1,10 @@
+https://pixabay.com/es/images/search/restaurant/
+https://unsplash.com/photos/k48c--P5MnQ
+https://www.pexels.com/photo/photo-of-black-store-facade-747510/
+https://www.pexels.com/photo/top-view-photo-of-restaurant-2253643/
+https://unsplash.com/s/photos/restaurant
+https://www.iconfinder.com/iconsets/social-58
+
+CSS:
+Circulos:
+https://www.freecodecamp.org/news/css-shapes-explained-how-to-draw-a-circle-triangle-and-more-using-pure-css/#:~:text=To%20create%20a%20circle%20we,will%20get%20an%20oval%20instead.
