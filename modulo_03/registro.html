@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <title>CoinSeeker</title>
+</head>
+<body>
+    <header class="head-principal">
+        <nav >
+        <ul id="BotoPrinc">
+            <li class="BotoPrincLi">
+                <a href="./index.html">CoinSeeker</a>
+            </li>
+            <li class="BotoPrincLi">
+                <a href="./pesos.html">Criptomonedas pesos</a>
+            </li>
+            <li class="BotoPrincLi">
+                <a href="./dolar.html">Criptomonedas USDT</a>
+            </li>
+            <li class="BotoPrincLi">
+                <a href="./registro.html">Registro</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <h1>Registro</h1>
+    <section class="cont">
+      <div id="formulario">
+        <form id="formularioCampos">
+          <input class="entradaFormulario" type="text" placeholder="Nombre de usuario" id="nombre" required/>
+          <input class="entradaFormulario" type="email" placeholder="Email" id="correo" required />
+          <input class="entradaFormulario" type="password" placeholder="Contraseña" id="password" required pattern="[\w]{8,16}"/>
+          <input class="entradaFormulario" id="enviar" type="submit" value="Registrarse"/>
+        </form>
+      </div>
+    </section>
+    <h3 id="mensajeSubscripcion">Registrese para subscribirse a nuestras alertas y obtener las últimas novedades del mundo cripto!</h3>
+    <footer>
+        <nav id="footerNavExterno">
+            <a href="https://www.facebook.com/CoinSeeker" target="_blank"
+              ><img src="./img/icon-color-facebook.svg" alt="Facebook"
+            /></a>
+            <a href="https://www.twitter.com/CoinSeeker" target="_blank"
+              ><img src="./img/icon-color-twitter.svg" alt="Instagram"
+            /></a>
+            <a href="mailto:CoinSeeker@contacto.com" target="_blank"
+              ><img src="./img/icon-color-email.svg" alt="email"
+            /></a>
+          </nav>
+    </footer>
+</body>
+<script type="text/javascript" src="./js/validacion.js"> </script>
+</html>

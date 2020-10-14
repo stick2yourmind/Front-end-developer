@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+html {
+    min-height: 100vh;
+}
+body{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+#BotoPrinc{
+    display: flex;
+}
+
+.BotoPrincLi{
+    flex-grow: 1;
+    list-style-type: none;
+    background-color: rgba(16, 160, 170, 0.4);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border-radius: 90px;
+}
+.BotoPrincLi:hover{
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-name: BotoneraHover;
+}
+
+@keyframes BotoneraHover {
+    from { background-color:rgba(16, 160, 170, 0.4);}
+    to { filter: invert(25%) sepia(60%) saturate(4282%) hue-rotate(170deg) brightness(97%) contrast(61%); }
+    }
+.BotoPrincLi a { 
+    text-decoration: none;
+    flex-grow: 1;
+    font-size: 25px;
+    padding: 5px;
+    color: lavenderblush;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+
+}
+#reproductor{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#medio{
+    border-radius: 90px;
+}
+#botones{
+    position: absolute;
+    top: -webkit-calc(100% - 35px);
+    /* Firefox */
+    top: -moz-calc(100% - 35px);
+    /* WebKit */
+    top: -webkit-calc(100% - 35px);
+    /* Opera */
+    top: -o-calc(100% - 35px);
+    /* Standard */
+    top: calc(100% - 35px);
+    display: flex;
+    width: 854px;
+}
+.botonItem{
+    flex-grow: 1;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.botonItem svg{
+    width: 35px;
+    height: 35px;
+}
+.botonItem svg image{
+    height: 35px;
+    line-height: 35px;
+}
+
+.botonItem svg:hover{
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-name: cambiarColorHover;
+}
+.botonItem svg:active{
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-name: cambiarColorFocus;
+}
+
+@keyframes cambiarColorHover {
+    from { color: black; }
+    to { filter: invert(90%) sepia(27%) saturate(4282%) hue-rotate(156deg) brightness(97%) contrast(101%); }
+    }
+
+@keyframes cambiarColorFocus {
+    from { color: black; }
+    to { filter: invert(67%) sepia(10%) saturate(6837%) hue-rotate(280deg) brightness(78%) contrast(87%); }
+    }
+
+p{
+    margin:25px;
+}
+
+#coinsImage{
+    display: flex;
+}
+.svgIcon{    
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.svgIcon svg{
+    width: 80px;
+    height: 80px;
+    transition: transform 0.9s;
+}
+.svgIcon image{
+    width: 80px;
+    height: 80px;
+}
+.svgIcon svg:hover{
+    transform: rotateY(180deg);
+}
+
+
+#footerNavExterno{
+    text-align: center;
+}
+#footerNavExterno a {
+    display: inline-block;
+}
+#footerNavExterno img{
+  height: 60px;
+  padding: 5px 20px;
+}
+/* Pesos html */
+
+.tablaSimbolo{
+    margin: auto auto 25px auto;
+    min-width: 500px;
+    border-spacing: 0;
+}
+.tablaSimbolo svg,.tablaSimbolo image{
+    height: 30px;
+    width: 30px;
+}
+/* Redondeo de bordes superiores de la tabla */
+thead th:nth-child(1) {
+    border-top-left-radius: 70px;
+}
+thead th:nth-child(4) {
+    border-top-right-radius: 70px;
+}
+/* Redondeo de bordes inferiores de la tabla */
+tbody tr:nth-last-child(1) td:nth-child(1) {
+    border-bottom-left-radius: 70px;
+}
+tbody tr:nth-last-child(1) td:nth-child(4) {
+    border-bottom-right-radius: 70px;
+}
+
+th, td {
+    padding: 10px;
+    background:hsla(37, 6%, 67%, 0.33);
+    text-align: center;
+}
+
+tr{
+    transition: 0.5s;
+}
+tr:hover{
+    background:hsla(36, 74%, 44%, 0.33);
+}
+/* Registro html */
+#formularioCampos{
+    display: flex;
+    flex-direction: column;
+}
+#formularioCampos input{
+    flex-grow: 1;
+    height: 35px;
+    font-size: 30px;
+    line-height: 35px;
+}
+#enviar{
+    font-size: 25px !important;
+}
+#mensajeSubscripcion{
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <title>CoinSeeker</title>
+</head>
+<body>
+    <header class="head-principal">
+        <nav >
+        <ul id="BotoPrinc">
+            <li class="BotoPrincLi">
+                <a href="./index.html">CoinSeeker</a>
+            </li>
+            <li class="BotoPrincLi">
+                <a href="./pesos.html">Criptomonedas pesos</a>
+            </li>
+            <li class="BotoPrincLi">
+                <a href="./dolar.html">Criptomonedas USDT</a>
+            </li>
+            <li class="BotoPrincLi">
+                <a href="./registro.html">Registro</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <h1>CoinSeeker</h1>
+    <section class="cont">
+        <section id="reproductor">
+            <video id="medio" width="854" height="480">
+            <source src="./video/USDC.mp4" >
+            </video>
+            <div id="botones">
+                <div class="botonItem" id="botonRetroceder">
+                    <svg>       
+                    <image href="./img/chevrons-left.svg" />
+                    </svg>
+                </div>
+                <div class="botonItem" id="botonDetener">
+                    <svg>       
+                    <image href="./img/stop-circle.svg" />
+                    </svg>
+                </div>
+                <div class="botonItem" id="botonReproducirPausa">
+                    <svg>       
+                    <image href="./img/play-circle.svg" />
+                    </svg>
+                </div>
+                <div class="botonItem" id="botonAvanzar">
+                    <svg>       
+                    <image href="./img/chevrons-right.svg" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section id="textoIntroductorio">
+            <p>CoinSeeker te permite conocer la cotización en tiempo real de las criptmonedas estables o stable coins más conocidas.
+            Son una excelente alternativa de ahorro e inversión sin límites de compra.
+            </p>
+            <p>Una Stable coin o “Moneda estable” es una criptomoneda que tiene un valor con menos volatilidad o variación de precio en el tiempo, que el resto de las criptomonedas. La stable coin se vincula a otro activo menos volátil como el oro o el dólar estadounidense, por ejemplo. A diferencia de otros activos tradicionales, una stable coin es global y no está vinculada a un Banco Central.</p>
+            <p>Cada stable coin tiene un conjunto único de mecanismos de respaldo, pero en general funcionan de la misma manera: tienen algún tipo de garantía como el Euro o el USD, pero cualquier activo con baja volatilidad podría respaldarlas.</p>
+            <p>Tether es un ejemplo de una stable coin. Cada Tether y BUSD corresponden a un dólar estadounidense “tokenizado” y su valor está respaldado por un dólar real. Significa que por cada token o Tether que se emita, necesitan tener un USD en su cuenta bancaria. Porque en cualquier momento, el dueño de un token puede intercambiarlo por un USD real.</p>
+            <p>Otras stable coins, como DAI y USDC, mantienen otros cripto-activos en sus reservas como garantías para mantener estable su precio en base a recursos descentralizados.</p>
+            <p>Existen diversos mecanismos para respaldar el valor de las stable coins, unos más complejos que otros, pero lo que realmente importa es que cumpla con su principal objetivo: Que mantenga el valor de la moneda estable.</p>
+        </section>
+        <section id="coinsImage">
+            <div class="svgIcon">
+            <svg>       
+                <image href="./img/coins/busd-logo.svg" />
+            </svg>
+            </div>
+            <div class="svgIcon">
+            <svg>       
+                <image href="./img/coins/dai-logo.svg" />
+            </svg>
+            </div>  
+            <div class="svgIcon">
+            <svg>       
+                <image href="./img/coins/usdc-logo.svg" />
+            </svg>
+            </div>  
+            <div class="svgIcon">
+            <svg>       
+                <image href="./img/coins/usdt-logo.svg" />
+            </svg>
+            </div>  
+
+        </section>
+    </section>
+    <footer>
+        <nav id="footerNavExterno">
+            <a href="https://www.facebook.com/CoinSeeker" target="_blank"
+              ><img src="./img/icon-color-facebook.svg" alt="Facebook"
+            /></a>
+            <a href="https://www.twitter.com/CoinSeeker" target="_blank"
+              ><img src="./img/icon-color-twitter.svg" alt="Instagram"
+            /></a>
+            <a href="mailto:CoinSeeker@contacto.com" target="_blank"
+              ><img src="./img/icon-color-email.svg" alt="email"
+            /></a>
+          </nav>
+    </footer>
+</body>
+<script type="text/javascript" src="./js/controladorVideo.js"></script>
+</html>
