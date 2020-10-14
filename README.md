@@ -20,7 +20,8 @@ Módulo 02:
 
 
 Módulo 03:
-	Rev:1.1
+
+	Rev:1.2
 	+ Desktop Web
 
 
