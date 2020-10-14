@@ -19,8 +19,7 @@ Módulo 02:
 	+ Deploy at firebase
 
 
-
-Módulo 02:
+Módulo 03:
 	Rev:1.0
 	+ Desktop Web
 
