@@ -32,6 +32,9 @@ Módulo 03:
 	Rev:1.4
 	+ Fixed: hover button bug on player
 
+	Rev:1.4.1
+	+ Fixed: hover on cripto's table
+
 
 
 

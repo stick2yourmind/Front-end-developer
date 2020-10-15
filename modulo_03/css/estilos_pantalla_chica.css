@@ -55,6 +55,12 @@ thead {
 tr td {
     display: block;
 }
+tr:hover {
+    background: none;
+}
+td:hover {
+    background: hsla(36, 74%, 44%, 0.33);
+}
 .compraPrecio::before{
     content: "Compra: ";
 }
