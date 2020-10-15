@@ -1,0 +1,66 @@
+#BotoPrinc{
+    flex-wrap: wrap;
+}
+.BotoPrincLi {
+    flex-basis: 100%;
+    border-radius: 0px;
+}
+#medio{
+    width: 300px;
+    height: auto;
+    border-radius: 45px;
+}
+#botones {
+    top: calc(95% - 35px);
+    width: 80%;
+}
+.svgIcon svg {
+    width: 40px;
+    height: 40px;
+}
+.svgIcon image {
+    width: 40px;
+    height: 40px;
+}
+#footerNavExterno img {
+    height: 40px;
+}
+
+/* pesos.html y dolar.html */
+.tablaSimbolo {
+    min-width: 220px;
+}
+tbody tr > td:nth-child(1) {
+    border-bottom: black dashed 1px;
+}
+tbody tr > td:nth-last-child(1) {
+    border-bottom: #ddd dashed;
+}
+tbody tr:nth-last-child(1) td:nth-child(1) {
+    border-bottom-left-radius: 0;
+}
+
+tbody tr:nth-child(1) td:nth-child(1) {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 0;
+}
+tbody tr:nth-last-child(1) td:nth-last-child(1) {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+thead {
+    display: none;
+}
+tr td {
+    display: block;
+}
+.compraPrecio::before{
+    content: "Compra: ";
+}
+.ventaPrecio::before{
+    content: "Venta: ";
+}
+.comision::before{
+    content: "Comisión: ";
+}

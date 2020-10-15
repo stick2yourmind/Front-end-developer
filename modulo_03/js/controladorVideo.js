@@ -12,6 +12,11 @@ var botonAvanzar = document.getElementById("botonAvanzar");
 botonAvanzar.addEventListener("mousedown", avanzar, false);
 botonAvanzar.addEventListener("mouseup", avanzar, false);
 botonAvanzar.addEventListener("mouseleave", avanzar, false);
+//Event Listener para retroceder seis segundos cada medio segundo que el dedo se mantiene presionado
+//touchend: En caso de ser detectado no se espera que el boton sea liberado, detiene el proceso de avance
+botonAvanzar.addEventListener("touchstart", avanzar, false);
+botonAvanzar.addEventListener("touchcancel", avanzar, false);
+botonAvanzar.addEventListener("touchend", avanzar, false);
 //Event Listener para avanzar seis segundos cada click
 botonAvanzar.addEventListener("click", ()=>frameSecuencia(6), false);
 
@@ -21,6 +26,11 @@ var botonRetroceder = document.getElementById("botonRetroceder");
 botonRetroceder.addEventListener("mousedown", retroceder, false);
 botonRetroceder.addEventListener("mouseup", retroceder, false);
 botonRetroceder.addEventListener("mouseleave", retroceder, false);
+//Event Listener para retroceder seis segundos cada medio segundo que el dedo se mantiene presionado
+//touchend: En caso de ser detectado no se espera que el boton sea liberado, detiene el proceso de retroceso
+botonRetroceder.addEventListener("touchstart", retroceder, false);
+botonRetroceder.addEventListener("touchcancel", retroceder, false);
+botonRetroceder.addEventListener("touchend", retroceder, false);
 //Event Listener para retroceder seis segundos cada click
 botonRetroceder.addEventListener("click", ()=>frameSecuencia(-6), false);
 
@@ -55,7 +65,7 @@ function detener(){
 function avanzar(event){
     console.log(event.type);
     switch (estadoAvance){
-        case 0: if(event.type!="mouseleave"){intervalAvanzar=setInterval( ()=>{frameSecuencia(6)}, 500); estadoAvance = 1;}
+        case 0: if(event.type=="mousedown" || event.type=="touchstart"){intervalAvanzar=setInterval( ()=>{frameSecuencia(6)}, 500); estadoAvance = 1;}
                 break;
         case 1: try{clearInterval(intervalAvanzar); estadoAvance = 0;console.log("Avance detenido")}
                 catch {console.log("Error al intentar detener el avance")};break;
@@ -68,7 +78,7 @@ function avanzar(event){
 function retroceder(event){
     console.log(event.type);
     switch (estadoRetroceso){
-        case 0: if(event.type!="mouseleave"){intervalRetroceder=setInterval( ()=>{frameSecuencia(-6)}, 500); estadoRetroceso = 1;}
+        case 0: if(event.type=="mousedown" || event.type=="touchstart"){intervalRetroceder=setInterval( ()=>{frameSecuencia(-6)}, 500); estadoRetroceso = 1;}
                 break;
         case 1: try{clearInterval(intervalRetroceder); estadoRetroceso = 0;console.log("Retroceso detenido")}
                 catch {console.log("Error al intentar detener el retroceso")};break;
