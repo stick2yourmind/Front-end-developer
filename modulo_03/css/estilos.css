@@ -88,24 +88,23 @@ h1{
 }
 
 .botonItem:hover{
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
-    animation-name: cambiarColorHover;
-}
-.botonItem:active{
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
-    animation-name: cambiarColorFocus;
+    animation-name: cambiarColorBotonReproductorHover;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
 }
 
-@keyframes cambiarColorHover {
+@keyframes cambiarColorBotonReproductorHover {
     from { color: black; }
     to { filter: invert(90%) sepia(27%) saturate(4282%) hue-rotate(156deg) brightness(97%) contrast(101%); }
     }
-
-@keyframes cambiarColorFocus {
+.botonItem:active{
+    animation-name: cambiarColorBotonReproductorActive;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+@keyframes cambiarColorBotonReproductorActive {
     from { color: black; }
-    to { filter: invert(67%) sepia(10%) saturate(6837%) hue-rotate(280deg) brightness(78%) contrast(87%); }
+    to { filter: invert(90%) sepia(27%) saturate(4282%) hue-rotate(156deg) brightness(97%) contrast(101%); }
     }
 
 p{

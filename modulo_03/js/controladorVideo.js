@@ -59,6 +59,7 @@ function playPausa(){
 function detener(){
     video.pause();
     video.currentTime = 0;
+    botonReproducirPausa.innerHTML = '<svg> <image href="./img/play-circle.svg" /> </svg>'
 }
 // Función utilizada para avanzar en segundos el video
 // estadoAvance = 0 = Estado inicial, estadoAvance = 1 = boton previamente presionado
