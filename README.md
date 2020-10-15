@@ -35,6 +35,9 @@ Módulo 03:
 	Rev:1.4.1
 	+ Fixed: hover on cripto's table
 
+	Rev:1.4.2
+	+ Coins svg are now part of the footer and avoided to be selectable.
+
 
 
 
