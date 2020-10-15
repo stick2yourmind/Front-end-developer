@@ -29,6 +29,9 @@ Módulo 03:
 	Rev:1.3
 	+ Responsive, js modified to be able to play video with touchscreen
 
+	Rev:1.4
+	+ Fixed: hover button bug on player
+
 
 
 

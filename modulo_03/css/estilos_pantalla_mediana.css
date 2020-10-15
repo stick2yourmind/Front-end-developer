@@ -23,8 +23,8 @@
     border-radius: 45px;
 }
 #botones {
-    top: calc(95% - 35px);
-    width: 80%;
+    top: calc(100% - 35px);
+    width: 410px;
 }
 
 .svgIcon svg {

@@ -67,7 +67,7 @@ h1{
     /* Standard */
     top: calc(100% - 35px);
     display: flex;
-    width: 854px;
+    width: 700px;
 }
 .botonItem{
     flex-grow: 1;
@@ -87,12 +87,12 @@ h1{
     line-height: 35px;
 }
 
-.botonItem svg:hover{
+.botonItem:hover{
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     animation-name: cambiarColorHover;
 }
-.botonItem svg:active{
+.botonItem:active{
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     animation-name: cambiarColorFocus;
@@ -131,8 +131,8 @@ p{
 }
 .svgIcon svg:hover{
     animation-duration: 1.2s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: normal;
+    animation-timing-function: ease-out;    
+    animation-iteration-count: infinite;
     animation-name: rotacionSVG;
 }
 
