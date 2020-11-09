@@ -38,31 +38,47 @@ function dragStartTabla(evento) {
 
 function guardarLocalStorageOrdenCripto(){
     let ordenTablas = ordenCripto = [];
-    localStorage.clear("ordenCripto");
+    let clave = nombrePagina();
     ordenTablas = document.getElementsByClassName("CaptionTablaSimbolo");
     for(let i =0;i<ordenTablas.length;i++)
         ordenCripto[i]=ordenTablas[i].id;
-    
-    localStorage.setItem("ordenCripto",ordenCripto);
+    localStorage.setItem(clave,ordenCripto);
 }
+
 function leerLocalStorageOrdenCripto(){
     let ordenTablas = ordenCripto = buffer =[];
-    ordenCripto = localStorage.getItem("ordenCripto").split(',');
-    console.log("ordenCripto: ", ordenCripto);
-    ordenTablas = document.getElementsByClassName("CaptionTablaSimbolo");
-    if(ordenCripto.length == ordenTablas.length){
-        console.log("Vectores iguales");
-        /* Almaceno un buffer del contenido actual para no perder los datos al pisarlos */
-        for(let i =0;i<ordenTablas.length;i++)
-            buffer[i] = document.getElementById(ordenCripto[i]).parentElement.innerHTML;
-        console.log("buffer: ", buffer);
-        for(let i =0;i<ordenTablas.length;i++)
-            ordenTablas[i].parentElement.innerHTML = buffer[i];
-        console.log("ordenTablas: ", ordenTablas);
-        console.log("ordenTablas[i].parentElement.innerHTML : ", ordenTablas[i].parentElement.innerHTML );
+    let clave = nombrePagina();
+    if(localStorage.getItem(clave)){
+        ordenCripto = localStorage.getItem(clave).split(',');
+        console.log("ordenCripto: ", ordenCripto);
+        ordenTablas = document.getElementsByClassName("CaptionTablaSimbolo");
+        if(ordenCripto.length == ordenTablas.length){
+            console.log("Vectores iguales");
+            /* Almaceno un buffer del contenido actual para no perder los datos al pisarlos */
+            for(let i =0;i<ordenTablas.length;i++)
+                buffer[i] = document.getElementById(ordenCripto[i]).parentElement.innerHTML;
+            console.log("buffer: ", buffer);
+            for(let i =0;i<ordenTablas.length;i++)
+                ordenTablas[i].parentElement.innerHTML = buffer[i];
+        }
+        else
+            console.log("Vectores diferentes");
     }
-    else
-        console.log("Vectores diferentes");
+    else{
+        console.log("No existe almacenamiento local con dicha clave");
+    }
     
+}
+
+function nombrePagina(){
+    let clave = "";
+    let ruta = window.location.pathname;
+    let pagina = ruta.split("/").pop();
+    if(pagina == "dolar.html")
+        clave = "ordenCriptoDolar";
+        else
+            clave = "ordenCriptoPeso";
+    console.log("clave: ", clave);
+    return clave;
 }
 document.addEventListener("load",leerLocalStorageOrdenCripto(),false);

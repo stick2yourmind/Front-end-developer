@@ -47,6 +47,9 @@ Módulo 03:
 	Rev:1.5
 	+ Tables on dolar.html are now draggable to allow user change the order of crytocurrencies. Hover clip on tables added.
 
+	Rev:1.6
+	+ Added localStorage to save order's cryptocurrencies both dolar.html and peso.html.
+
 
 
 
