@@ -36,9 +36,9 @@
       </nav>
     </header>
     <h1>Cotizaciones en USDT</h1>
-    <section class="cont">
-      <table class="tablaSimbolo">
-        <caption class="CaptionTablaSimbolo">
+    <section class="cont" id="contenedorTablas">
+      <table class="tablaSimbolo" id="tablaDragUno" draggable="true" ondragover="dragOverTabla(event)" ondrop="dropTabla(event)" ondragstart="dragStartTabla(event)">
+        <caption class="CaptionTablaSimbolo" id="BUSDTabla">
           BUSD
           <svg><image href="./img/coins/busd-logo.svg" /></svg>
         </caption>
@@ -72,8 +72,8 @@
         </tbody>
       </table>
 
-      <table class="tablaSimbolo">
-        <caption class="CaptionTablaSimbolo">
+      <table class="tablaSimbolo" id="tablaDragDos"  draggable="true" ondragover="dragOverTabla(event)" ondrop="dropTabla(event)" ondragstart="dragStartTabla(event)">
+        <caption class="CaptionTablaSimbolo" id="DAITabla">
           DAI
           <svg><image href="./img/coins/dai-logo.svg" /></svg>
         </caption>
@@ -113,8 +113,8 @@
         </tbody>
       </table>
 
-      <table class="tablaSimbolo">
-        <caption class="CaptionTablaSimbolo">
+      <table class="tablaSimbolo" id="tablaDragTres"  draggable="true" ondragover="dragOverTabla(event)" ondrop="dropTabla(event)" ondragstart="dragStartTabla(event)">
+        <caption class="CaptionTablaSimbolo" id="USDCTabla">
           USDC
           <svg><image href="./img/coins/usdc-logo.svg" /></svg>
         </caption>
@@ -185,4 +185,5 @@
       </nav>
     </footer>
   </body>
+  <script src="./js/dragTabla.js"></script>
 </html>

@@ -44,6 +44,9 @@ Módulo 03:
 	Rev:1.4.4
 	+ Hover and active animations on video modified.
 
+	Rev:1.5
+	+ Tables on dolar.html are now draggable to allow user change the order of crytocurrencies. Hover clip on tables added.
+
 
 
 

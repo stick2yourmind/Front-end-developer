@@ -43,8 +43,7 @@ video.addEventListener("ended", ()=>botonReproducirPausa.innerHTML = '<svg> <ima
 
 
 
-// Función utilizada para reproducir y pausar el video, si el video ya ha sido finalizado debe detener el video para 
-// comenzar nuevamente un ciclo de reproducción
+// Función utilizada para reproducir y pausar el video
 function playPausa(){
     if(video.paused){
         video.play();
@@ -66,7 +65,8 @@ function detener(){
 function avanzar(event){
     console.log(event.type);
     switch (estadoAvance){
-        case 0: if(event.type=="mousedown" || event.type=="touchstart"){intervalAvanzar=setInterval( ()=>{frameSecuencia(6)}, 500); estadoAvance = 1;}
+        case 0: if(event.type=="mousedown" || event.type=="touchstart")
+                    {intervalAvanzar=setInterval( ()=>{frameSecuencia(6)}, 500); estadoAvance = 1;}
                 break;
         case 1: try{clearInterval(intervalAvanzar); estadoAvance = 0;console.log("Avance detenido")}
                 catch {console.log("Error al intentar detener el avance")};break;
@@ -79,7 +79,8 @@ function avanzar(event){
 function retroceder(event){
     console.log(event.type);
     switch (estadoRetroceso){
-        case 0: if(event.type=="mousedown" || event.type=="touchstart"){intervalRetroceder=setInterval( ()=>{frameSecuencia(-6)}, 500); estadoRetroceso = 1;}
+        case 0: if(event.type=="mousedown" || event.type=="touchstart")
+                    {intervalRetroceder=setInterval( ()=>{frameSecuencia(-6)}, 500); estadoRetroceso = 1;}
                 break;
         case 1: try{clearInterval(intervalRetroceder); estadoRetroceso = 0;console.log("Retroceso detenido")}
                 catch {console.log("Error al intentar detener el retroceso")};break;

@@ -34,7 +34,8 @@ body{
 @keyframes BotoneraHover {
     from { background-color:rgba(16, 160, 170, 0.4);}
     to { filter: invert(25%) sepia(60%) saturate(4282%) hue-rotate(170deg) brightness(97%) contrast(61%); }
-    }
+}
+
 .BotoPrincLi a { 
     text-decoration: none;
     flex-grow: 1;
@@ -139,7 +140,7 @@ p{
     0% { transform: rotateY(0deg); }
     50% { transform: rotateY(180deg);}
     100% { transform: rotateY(360deg);}
-    }
+}
 
 
 #footerNavExterno{
@@ -158,6 +159,7 @@ p{
     margin: auto auto 25px auto;
     min-width: 500px;
     border-spacing: 0;
+    cursor: move;
 }
 .tablaSimbolo svg,.tablaSimbolo image{
     height: 30px;
@@ -186,9 +188,11 @@ th, td {
 
 tr{
     transition: 0.5s;
+    background-clip: text;  /* Con clip = text solo se aplica el background por debajo/interior del borde */
 }
 tr:hover{
-    background:hsla(36, 74%, 44%, 0.33);
+    background:hsla(36, 74%, 44%, 0.74);
+    background-clip: text;  /* Con clip = text solo se aplica el background por debajo/interior del borde */
 }
 /* Registro html */
 #formularioCampos{
